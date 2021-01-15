@@ -20,3 +20,6 @@ Note every products output will have at least one water based product and one mo
 
 * sample_products_and_models.txt:
  How the program outputs the recommendations with models.
+ * minimal_input.txt
+ * minimal_output.txt
+ Testing minimal input.
