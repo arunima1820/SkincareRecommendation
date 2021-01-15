@@ -12,5 +12,8 @@ Justifies the logic behind the 'rules' and defaults/constraints/order of precede
 * sampleinput.txt
 How the sample input file will be provided by the user.
 
-* sampleoutput.txt
-How the program outputs the recommendations.
+* sample_products.txt:
+ How the program outputs the recommendations.
+
+* sample_products.txt:
+ How the program outputs the recommendations with models.
