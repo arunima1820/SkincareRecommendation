@@ -5,7 +5,6 @@
 product(alpha_arbutin).
 product(mandelic_acid).
 product(lactic_acid).
-product(mandelic_acid).
 product(glycolic_acid).
 product(caffeine).
 product(hyaluronic_acid).
