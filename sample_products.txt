@@ -1,0 +1,74 @@
+QUERY:?- product(A),recommendation(A).
+
+	ANSWER:	1 (in 4952.78 ms)
+
+MODEL:
+{  }
+
+BINDINGS: 
+A = glycolic_acid
+
+
+	ANSWER:	2 (in 1890.972 ms)
+
+MODEL:
+{  }
+
+BINDINGS: 
+A = glycolic_acid
+
+
+	ANSWER:	3 (in 9335.511 ms)
+
+MODEL:
+{  }
+
+BINDINGS: 
+A = buffet_and_copper
+
+
+	ANSWER:	4 (in 1855.849 ms)
+
+MODEL:
+{  }
+
+BINDINGS: 
+A = buffet_and_copper
+
+
+	ANSWER:	5 (in 5972.313 ms)
+
+MODEL:
+{  }
+
+BINDINGS: 
+A = amino_acids
+
+
+	ANSWER:	6 (in 2743.392 ms)
+
+MODEL:
+{  }
+
+BINDINGS: 
+A = amino_acids
+
+
+	ANSWER:	7 (in 17256.989 ms)
+
+MODEL:
+{  }
+
+BINDINGS: 
+A = rose_hip_oil
+
+
+	ANSWER:	8 (in 6390.03 ms)
+
+MODEL:
+{  }
+
+BINDINGS: 
+A = rose_hip_oil
+
+
