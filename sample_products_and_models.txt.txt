@@ -1,0 +1,73 @@
+QUERY:?- product(A),recommendation(A).
+
+	ANSWER:	1 (in 12287.758 ms)
+
+MODEL:
+{ product(glycolic_acid),  recommendation(glycolic_acid),  not dont_recommend(glycolic_acid),  sensitivity_level(low),  skin_type(oily),  not contraindication(glycolic_acid),  not recommendation(vitamin_c),  dont_recommend(vitamin_c),  contraindication(vitamin_c),  recommendation(rose_hip_oil),  not dont_recommend(rose_hip_oil),  rose_hip_regimen(pigmentation),  regimen(pigmentation),  pigmentation_concern(sebum),  concern(sebum),  not recommendation(niacinamide),  dont_recommend(niacinamide),  contraindication(niacinamide),  not recommendation(mandelic_acid),  not dont_recommend(mandelic_acid),  not contraindication(mandelic_acid),  not recommendation(lactic_acid),  not dont_recommend(lactic_acid),  not contraindication(lactic_acid),  not sensitivity_level(medium),  contraindication(salicylic_acid),  not recommendation(alpha_arbutin),  not dont_recommend(alpha_arbutin),  recommendation(buffet_and_copper),  not dont_recommend(buffet_and_copper),  not contraindication(buffet_and_copper),  not recommendation(caffeine),  not dont_recommend(caffeine),  not skin_type(dry),  not recommendation(hyaluronic_acid),  dont_recommend(hyaluronic_acid),  not recommendation(natural_moisturizing_factors),  not dont_recommend(natural_moisturizing_factors),  not recommendation(salicylic_acid),  dont_recommend(salicylic_acid),  not regimen(oily),  not oily_concern(B | {B \= blemishes,B \= oily,B \= whiteheads}),  not oily_concern(blemishes),  not concern(blemishes),  not oily_concern(oily),  not concern(oily),  not oily_concern(whiteheads),  not concern(whiteheads) }
+
+BINDINGS: 
+A = glycolic_acid
+
+
+	ANSWER:	2 (in 4927.433 ms)
+
+MODEL:
+{ product(glycolic_acid),  recommendation(glycolic_acid),  not dont_recommend(glycolic_acid),  sensitivity_level(low),  skin_type(oily),  not contraindication(glycolic_acid),  not recommendation(vitamin_c),  dont_recommend(vitamin_c),  contraindication(vitamin_c),  recommendation(rose_hip_oil),  not dont_recommend(rose_hip_oil),  rose_hip_regimen(ageing),  regimen(ageing),  ageing_concern(wrinkles),  concern(wrinkles),  not recommendation(niacinamide),  dont_recommend(niacinamide),  contraindication(niacinamide),  not recommendation(mandelic_acid),  not dont_recommend(mandelic_acid),  not contraindication(mandelic_acid),  not recommendation(lactic_acid),  not dont_recommend(lactic_acid),  not contraindication(lactic_acid),  not sensitivity_level(medium),  contraindication(salicylic_acid),  not recommendation(alpha_arbutin),  not dont_recommend(alpha_arbutin),  recommendation(buffet_and_copper),  not dont_recommend(buffet_and_copper),  not contraindication(buffet_and_copper),  not recommendation(caffeine),  not dont_recommend(caffeine),  not skin_type(dry),  not recommendation(hyaluronic_acid),  dont_recommend(hyaluronic_acid),  not recommendation(natural_moisturizing_factors),  not dont_recommend(natural_moisturizing_factors),  not recommendation(salicylic_acid),  dont_recommend(salicylic_acid),  not regimen(oily),  not oily_concern(B | {B \= blemishes,B \= oily,B \= whiteheads}),  not oily_concern(blemishes),  not concern(blemishes),  not oily_concern(oily),  not concern(oily),  not oily_concern(whiteheads),  not concern(whiteheads) }
+
+BINDINGS: 
+A = glycolic_acid
+
+
+	ANSWER:	3 (in 23877.225 ms)
+
+MODEL:
+{ product(buffet_and_copper),  recommendation(buffet_and_copper),  not dont_recommend(buffet_and_copper),  not contraindication(buffet_and_copper),  not recommendation(vitamin_c),  dont_recommend(vitamin_c),  contraindication(vitamin_c),  recommendation(rose_hip_oil),  not dont_recommend(rose_hip_oil),  rose_hip_regimen(pigmentation),  regimen(pigmentation),  pigmentation_concern(sebum),  concern(sebum),  not recommendation(niacinamide),  dont_recommend(niacinamide),  contraindication(niacinamide),  recommendation(glycolic_acid),  not dont_recommend(glycolic_acid),  sensitivity_level(low),  skin_type(oily),  not contraindication(glycolic_acid),  not recommendation(mandelic_acid),  not dont_recommend(mandelic_acid),  not contraindication(mandelic_acid),  not recommendation(lactic_acid),  not dont_recommend(lactic_acid),  not contraindication(lactic_acid),  not sensitivity_level(medium),  contraindication(salicylic_acid),  not recommendation(alpha_arbutin),  not dont_recommend(alpha_arbutin),  not recommendation(caffeine),  not dont_recommend(caffeine),  not skin_type(dry),  not recommendation(hyaluronic_acid),  dont_recommend(hyaluronic_acid),  not recommendation(natural_moisturizing_factors),  not dont_recommend(natural_moisturizing_factors),  not recommendation(salicylic_acid),  dont_recommend(salicylic_acid),  not regimen(oily),  not oily_concern(B | {B \= blemishes,B \= oily,B \= whiteheads}),  not oily_concern(blemishes),  not concern(blemishes),  not oily_concern(oily),  not concern(oily),  not oily_concern(whiteheads),  not concern(whiteheads) }
+
+BINDINGS: 
+A = buffet_and_copper
+
+
+	ANSWER:	4 (in 7492.429 ms)
+
+MODEL:
+{ product(buffet_and_copper),  recommendation(buffet_and_copper),  not dont_recommend(buffet_and_copper),  not contraindication(buffet_and_copper),  not recommendation(vitamin_c),  dont_recommend(vitamin_c),  contraindication(vitamin_c),  recommendation(rose_hip_oil),  not dont_recommend(rose_hip_oil),  rose_hip_regimen(ageing),  regimen(ageing),  ageing_concern(wrinkles),  concern(wrinkles),  not recommendation(niacinamide),  dont_recommend(niacinamide),  contraindication(niacinamide),  recommendation(glycolic_acid),  not dont_recommend(glycolic_acid),  sensitivity_level(low),  skin_type(oily),  not contraindication(glycolic_acid),  not recommendation(mandelic_acid),  not dont_recommend(mandelic_acid),  not contraindication(mandelic_acid),  not recommendation(lactic_acid),  not dont_recommend(lactic_acid),  not contraindication(lactic_acid),  not sensitivity_level(medium),  contraindication(salicylic_acid),  not recommendation(alpha_arbutin),  not dont_recommend(alpha_arbutin),  not recommendation(caffeine),  not dont_recommend(caffeine),  not skin_type(dry),  not recommendation(hyaluronic_acid),  dont_recommend(hyaluronic_acid),  not recommendation(natural_moisturizing_factors),  not dont_recommend(natural_moisturizing_factors),  not recommendation(salicylic_acid),  dont_recommend(salicylic_acid),  not regimen(oily),  not oily_concern(B | {B \= blemishes,B \= oily,B \= whiteheads}),  not oily_concern(blemishes),  not concern(blemishes),  not oily_concern(oily),  not concern(oily),  not oily_concern(whiteheads),  not concern(whiteheads) }
+
+BINDINGS: 
+A = buffet_and_copper
+
+
+	ANSWER:	5 (in 7729.59 ms)
+
+MODEL:
+{ product(amino_acids),  recommendation(amino_acids),  not dont_recommend(amino_acids),  not sensitivity_level(high),  not recommendation(vitamin_c),  dont_recommend(vitamin_c),  contraindication(vitamin_c),  recommendation(rose_hip_oil),  not dont_recommend(rose_hip_oil),  rose_hip_regimen(pigmentation),  regimen(pigmentation),  pigmentation_concern(sebum),  concern(sebum),  not recommendation(niacinamide),  dont_recommend(niacinamide),  contraindication(niacinamide),  recommendation(glycolic_acid),  not dont_recommend(glycolic_acid),  sensitivity_level(low),  skin_type(oily),  not contraindication(glycolic_acid),  not recommendation(mandelic_acid),  not dont_recommend(mandelic_acid),  not contraindication(mandelic_acid),  not recommendation(lactic_acid),  not dont_recommend(lactic_acid),  not contraindication(lactic_acid),  not sensitivity_level(medium),  contraindication(salicylic_acid),  not recommendation(alpha_arbutin),  not dont_recommend(alpha_arbutin),  recommendation(buffet_and_copper),  not dont_recommend(buffet_and_copper),  not contraindication(buffet_and_copper),  not recommendation(caffeine),  not dont_recommend(caffeine),  not skin_type(dry),  not recommendation(hyaluronic_acid),  dont_recommend(hyaluronic_acid),  not recommendation(natural_moisturizing_factors),  not dont_recommend(natural_moisturizing_factors),  not recommendation(salicylic_acid),  dont_recommend(salicylic_acid),  not regimen(oily),  not oily_concern(B | {B \= blemishes,B \= oily,B \= whiteheads}),  not oily_concern(blemishes),  not concern(blemishes),  not oily_concern(oily),  not concern(oily),  not oily_concern(whiteheads),  not concern(whiteheads) }
+
+BINDINGS: 
+A = amino_acids
+
+
+	ANSWER:	6 (in 7281.015 ms)
+
+MODEL:
+{ product(amino_acids),  recommendation(amino_acids),  not dont_recommend(amino_acids),  not sensitivity_level(high),  not recommendation(vitamin_c),  dont_recommend(vitamin_c),  contraindication(vitamin_c),  recommendation(rose_hip_oil),  not dont_recommend(rose_hip_oil),  rose_hip_regimen(ageing),  regimen(ageing),  ageing_concern(wrinkles),  concern(wrinkles),  not recommendation(niacinamide),  dont_recommend(niacinamide),  contraindication(niacinamide),  recommendation(glycolic_acid),  not dont_recommend(glycolic_acid),  sensitivity_level(low),  skin_type(oily),  not contraindication(glycolic_acid),  not recommendation(mandelic_acid),  not dont_recommend(mandelic_acid),  not contraindication(mandelic_acid),  not recommendation(lactic_acid),  not dont_recommend(lactic_acid),  not contraindication(lactic_acid),  not sensitivity_level(medium),  contraindication(salicylic_acid),  not recommendation(alpha_arbutin),  not dont_recommend(alpha_arbutin),  recommendation(buffet_and_copper),  not dont_recommend(buffet_and_copper),  not contraindication(buffet_and_copper),  not recommendation(caffeine),  not dont_recommend(caffeine),  not skin_type(dry),  not recommendation(hyaluronic_acid),  dont_recommend(hyaluronic_acid),  not recommendation(natural_moisturizing_factors),  not dont_recommend(natural_moisturizing_factors),  not recommendation(salicylic_acid),  dont_recommend(salicylic_acid),  not regimen(oily),  not oily_concern(B | {B \= blemishes,B \= oily,B \= whiteheads}),  not oily_concern(blemishes),  not concern(blemishes),  not oily_concern(oily),  not concern(oily),  not oily_concern(whiteheads),  not concern(whiteheads) }
+
+BINDINGS: 
+A = amino_acids
+
+
+	ANSWER:	7 (in 38097.241 ms)
+
+MODEL:
+{ product(rose_hip_oil),  recommendation(rose_hip_oil),  not dont_recommend(rose_hip_oil),  not recommendation(vitamin_c),  dont_recommend(vitamin_c),  contraindication(vitamin_c),  rose_hip_regimen(pigmentation),  regimen(pigmentation),  pigmentation_concern(sebum),  concern(sebum),  not recommendation(niacinamide),  dont_recommend(niacinamide),  contraindication(niacinamide),  recommendation(glycolic_acid),  not dont_recommend(glycolic_acid),  sensitivity_level(low),  skin_type(oily),  not contraindication(glycolic_acid),  not recommendation(mandelic_acid),  not dont_recommend(mandelic_acid),  not contraindication(mandelic_acid),  not recommendation(lactic_acid),  not dont_recommend(lactic_acid),  not contraindication(lactic_acid),  not sensitivity_level(medium),  contraindication(salicylic_acid),  not recommendation(alpha_arbutin),  not dont_recommend(alpha_arbutin),  recommendation(buffet_and_copper),  not dont_recommend(buffet_and_copper),  not contraindication(buffet_and_copper),  not recommendation(caffeine),  not dont_recommend(caffeine),  not skin_type(dry),  not recommendation(hyaluronic_acid),  dont_recommend(hyaluronic_acid),  not recommendation(natural_moisturizing_factors),  not dont_recommend(natural_moisturizing_factors),  not recommendation(salicylic_acid),  dont_recommend(salicylic_acid),  not regimen(oily),  not oily_concern(B | {B \= blemishes,B \= oily,B \= whiteheads}),  not oily_concern(blemishes),  not concern(blemishes),  not oily_concern(oily),  not concern(oily),  not oily_concern(whiteheads),  not concern(whiteheads) }
+
+BINDINGS: 
+A = rose_hip_oil
+
+
+	ANSWER:	8 (in 6769.874 ms)
+
+MODEL:
+{ product(rose_hip_oil),  recommendation(rose_hip_oil),  not dont_recommend(rose_hip_oil),  not recommendation(vitamin_c),  dont_recommend(vitamin_c),  contraindication(vitamin_c),  rose_hip_regimen(ageing),  regimen(ageing),  ageing_concern(wrinkles),  concern(wrinkles),  not recommendation(niacinamide),  dont_recommend(niacinamide),  contraindication(niacinamide),  recommendation(glycolic_acid),  not dont_recommend(glycolic_acid),  sensitivity_level(low),  skin_type(oily),  not contraindication(glycolic_acid),  not recommendation(mandelic_acid),  not dont_recommend(mandelic_acid),  not contraindication(mandelic_acid),  not recommendation(lactic_acid),  not dont_recommend(lactic_acid),  not contraindication(lactic_acid),  not sensitivity_level(medium),  contraindication(salicylic_acid),  not recommendation(alpha_arbutin),  not dont_recommend(alpha_arbutin),  recommendation(buffet_and_copper),  not dont_recommend(buffet_and_copper),  not contraindication(buffet_and_copper),  not recommendation(caffeine),  not dont_recommend(caffeine),  not skin_type(dry),  not recommendation(hyaluronic_acid),  dont_recommend(hyaluronic_acid),  not recommendation(natural_moisturizing_factors),  not dont_recommend(natural_moisturizing_factors),  not recommendation(salicylic_acid),  dont_recommend(salicylic_acid),  not regimen(oily),  not oily_concern(B | {B \= blemishes,B \= oily,B \= whiteheads}),  not oily_concern(blemishes),  not concern(blemishes),  not oily_concern(oily),  not concern(oily),  not oily_concern(whiteheads),  not concern(whiteheads) }
+
+BINDINGS: 
+A = rose_hip_oil
+
