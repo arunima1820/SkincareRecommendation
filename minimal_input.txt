@@ -1,0 +1,2 @@
+% Minimal input with one concern
+concern(brightness).
