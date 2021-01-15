@@ -1,0 +1,9 @@
+% Skin Concerns
+concern(wrinkles).
+concern(sebum).
+
+% Sensitivity Level
+sensitivity_level(low).
+
+% Skin Type
+skin_type(oily).
