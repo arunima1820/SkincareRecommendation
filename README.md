@@ -15,5 +15,5 @@ How the sample input file will be provided by the user.
 * sample_products.txt:
  How the program outputs the recommendations.
 
-* sample_products.txt:
+* sample_products_and_models.txt:
  How the program outputs the recommendations with models.
