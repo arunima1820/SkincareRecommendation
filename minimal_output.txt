@@ -1,0 +1,37 @@
+QUERY:?- product(A),recommendation(A).
+
+	ANSWER:	1 (in 21676.497 ms)
+
+MODEL:
+{  }
+
+BINDINGS: 
+A = alpha_arbutin
+
+
+	ANSWER:	2 (in 85892.23 ms)
+
+MODEL:
+{  }
+
+BINDINGS: 
+A = buffet_and_copper
+
+
+	ANSWER:	3 (in 12947.399 ms)
+
+MODEL:
+{  }
+
+BINDINGS: 
+A = amino_acids
+
+
+	ANSWER:	4 (in 54922.414 ms)
+
+MODEL:
+{  }
+
+BINDINGS: 
+A = rose_hip_oil
+
